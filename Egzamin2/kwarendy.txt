@@ -1,0 +1,3 @@
+SELECT marka,model,cena FROM pojazdy WHERE marka = 'BM' ;
+SELECT AVG(cena) AS 'Srednia cena', MAX(cena) AS 'Maksymalna cena', model FROM pojazdy WHERE model = 'meta';
+Zawiodlem chlopaki ):

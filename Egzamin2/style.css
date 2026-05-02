@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+    font-family: Helvetica;
+}
+header,nav, footer{
+    color: white;
+    padding: 2px;
+}
+header,footer{
+    background-color: darkgreen;
+}
+nav{
+    background-color: forestgreen;
+}
+section{
+    background-color: lightgreen;
+    width: 33.3%;
+    height: 550px;
+    padding-top: 10px;
+    overflow: auto;
+}
+h2{
+    width: 33%;
+    display: inline-block;
+}
+table,td,tr{
+    border: 1px darkgreen solid;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+.middle img{
+ width: 95%;
+ border-radius: 8px;
+}
+.left:hover{
+    background-color: forestgreen;
+}
+main{
+  display: flex;
+  flex-direction: row; fajne info 
+}
